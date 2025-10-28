@@ -1,0 +1,20 @@
+{
+  "50p": {
+    "subtitle": "sound.audible-durability-cues.50_percent_warning",
+    "sounds": [
+      "audible-durability-cues:50p"
+    ]
+  },
+  "10p": {
+    "subtitle": "sound.audible-durability-cues.10_percent_warning",
+    "sounds": [
+      "audible-durability-cues:10p"
+    ]
+  },
+  "1p": {
+    "subtitle": "sound.audible-durability-cues.01_percent_warning",
+    "sounds": [
+      "audible-durability-cues:1p"
+    ]
+  }
+}
