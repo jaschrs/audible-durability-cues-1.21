@@ -1,15 +1,15 @@
 {
 	"schemaVersion": 1,
-	"id": "audible-durability-cues",
-	"version": "${version}",
+	"id": "audible_durability_cues",
+	"version": "1",
 	"name": "audible-durability-cues",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Play a sound when your tool/weapon/armor reaches certain durability thresholds.",
 	"authors": [
 		"Me!"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/jaschrs/audible-durability-cues"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/audible-durability-cues/icon.png",

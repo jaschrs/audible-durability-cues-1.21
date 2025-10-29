@@ -1,0 +1,20 @@
+{
+  "cue_50p": {
+    "subtitle": "50 Percent Warning",
+    "sounds": [
+      "audible_durability_cues:cue_50p"
+    ]
+  },
+  "cue_10p": {
+    "subtitle": "10 Percent Warning",
+    "sounds": [
+      "audible_durability_cues:cue_10p"
+    ]
+  },
+  "cue_01p": {
+    "subtitle": "01 Percent Warning",
+    "sounds": [
+      "audible_durability_cues:cue_01p"
+    ]
+  }
+}

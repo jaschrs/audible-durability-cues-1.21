@@ -10,12 +10,21 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Audibledurabilitycues implements ModInitializer {
-	public static final String MOD_ID = "audible-durability-cues";
+	public static final String MOD_ID = "audible_durability_cues";
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+
+	private static SoundEvent register(String name){
+		Identifier id = Identifier.of(MOD_ID, name);
+		return Registry.register(Registries.SOUND_EVENT, id, SoundEvent.of(id));
+	}
+
+	public static final SoundEvent CUE_50P = register("cue_50p");
+	public static final SoundEvent CUE_10P = register("cue_10p");
+	public static final SoundEvent CUE_01P = register("cue_01p");
 
 	@Override
 	public void onInitialize() {
@@ -23,16 +32,9 @@ public class Audibledurabilitycues implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Sounds registered.");
 
-		Registry.register(Registries.SOUND_EVENT, Identifier.of(MOD_ID, "50p"),
-				SoundEvent.of(Identifier.of(MOD_ID, "50p")));
 
-		Registry.register(Registries.SOUND_EVENT, Identifier.of(MOD_ID, "10p"),
-				SoundEvent.of(Identifier.of(MOD_ID, "10p")));
-
-		Registry.register(Registries.SOUND_EVENT, Identifier.of(MOD_ID, "01p"),
-				SoundEvent.of(Identifier.of(MOD_ID, "01p")));
 
 	}
 }
