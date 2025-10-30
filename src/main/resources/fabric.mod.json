@@ -12,7 +12,7 @@
 		"sources": "https://github.com/jaschrs/audible-durability-cues"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/audible_durability_cues/icon.png",
+	"icon": "assets/audible-durability-cues/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -23,9 +23,9 @@
 		]
 	},
 	"mixins": [
-		"audible_durability_cues.mixins.json",
+		"audible-durability-cues.mixins.json",
 		{
-			"config": "audible_durability_cues.client.mixins.json",
+			"config": "audible-durability-cues.client.mixins.json",
 			"environment": "client"
 		}
 	],
